@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="410.0" prefWidth="881.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <children>
+      <TableView fx:id="tableView" layoutX="67.0" layoutY="14.0" prefHeight="374.0" prefWidth="763.0">
+        <columns>
+          <TableColumn fx:id="idV" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="firstnameV" prefWidth="75.0" text="firstname" />
+            <TableColumn fx:id="lastnameV" prefWidth="75.0" text="lastname" />
+            <TableColumn fx:id="patronymicV" prefWidth="75.0" text="patronymic" />
+            <TableColumn fx:id="phoneV" prefWidth="75.0" text="phone" />
+            <TableColumn fx:id="emailV" prefWidth="75.0" text="email" />
+            <TableColumn fx:id="genderV" prefWidth="75.0" text="gender" />
+            <TableColumn fx:id="regdateV" prefWidth="75.0" text="registrationDate" />
+            <TableColumn fx:id="birthV" prefWidth="75.0" text="birthday" />
+            <TableColumn fx:id="phpathV" prefWidth="75.0" text="photopath" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
